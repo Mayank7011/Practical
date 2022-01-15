@@ -1,0 +1,45 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sat Jan 14 21:06:43 2022
+
+@author: 20CE013
+"""
+#20CE013 - Mayank Chovatiya 
+#AIM : Tuple 
+"""
+a. Write a Python program to create a tuple with different data types.
+
+b. Write a Python program to create a tuple with numbers and print one item.
+
+c. Write a Python program to add an item in a tuple.
+
+d. Write a Python program to convert a tuple to a string.
+
+e. Write a Python program to find the length of a tuple.
+ 
+"""
+# Python program to create a tuple with different data types. 
+tpl = ("Apple", True, 9.5 , 25) 
+print(tpl) 
+ 
+# Python program to create a tuple with numbers and print one item. 
+Age = (3, 10, 18, 25) 
+print(Age[0]) 
+ 
+# Python program to add an item in a tuple. 
+new_Age = (9,) 
+Age2 = Age + new_Age 
+print(Age2) 
+ 
+# Python program to convert a tuple to a string. 
+Alphabet = ('M', 'a', 'y', 'a', 'n', 'k') 
+# Fun to create tuple to string. 
+str = ''.join(Alphabet) 
+print(str) 
+ 
+# Python program to find the length of a tuple. 
+Names = ('Mayank', 'Deep', 'Raj', 'Jay', 'Parth', 'Syam','Jigar','Saurabh') 
+# It will print the Names 
+print(Names) 
+# It will print the length of tuple. 
+print(len(Names)) 
